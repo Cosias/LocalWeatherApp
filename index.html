@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Local Weather</title>
+		<meta charset = "utf-8">
+		<link rel= "stylesheet" href = "WeatherApp.css">
+		<link rel= "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type = "text/javascript" src= "WeatherApp.js" defer></script>		
+	</head>
+
+	<body>
+		<div class = "jumbotron">
+				<h1>Local Weather</h1>
+		</div>
+
+		<div class = "container">
+			<div>
+				<h2 id = "date"></h2>
+			</div>
+			
+			<div>
+				<h3 id = "location"></h3>
+			</div>
+			
+			<div>
+				<img id = "icon">
+			</div>
+			
+			<div>
+				<h2 id = "temp"></h2>
+			</div>
+			
+			<div>
+				<h3 id = "weather"></h3>
+			</div>
+			
+			<div>
+				<h5 id = "lastRefresh"></h5>
+			</div>
+
+		</div>
+		<button type = "button" class = "btn btn-lg btn-primary" id = "tempSwitch"><span id = "degreeIcon">&#8451;</span></button>
+		<button type = "button" class = "btn btn-lg btn-primary" id = "refreshBtn"><span class = "glyphicon glyphicon-refresh"></span></button>
+	</body>
+</html>

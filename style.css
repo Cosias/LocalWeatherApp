@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+	background-image: url("http://www.publicdomainpictures.net/pictures/160000/velka/la-girouette-.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.jumbotron {
+	font-family: "Courier New", Courier, monospace;
+	background-color: transparent !important; 
+}
+
+#date{
+	/*color: #027AA4;*/
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+#location{
+	color: #027AA4;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+#temp{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+#weather{
+	color: #027AA4;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+#lastRefresh{
+	/*color: red;*/
+}
+
+#icon{
+	width: 10%;
+	height: 10%;
+}
+
